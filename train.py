@@ -13,7 +13,7 @@ from keras.callbacks import ModelCheckpoint
 
 # Loading data
 
-text = (open("LyricsGenius/Lyrics_Booba.txt").read())
+text = (open("dataset.txt").read())
 #text = (open("debug.txt").read())
 text=text.lower()
 
